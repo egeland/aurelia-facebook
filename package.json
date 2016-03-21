@@ -1,6 +1,6 @@
 {
   "name": "aurelia-facebook",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "reveal": false,
   "description": "An Aurelia plugin to make it easy to use Facebook SDK.",
   "keywords": [
