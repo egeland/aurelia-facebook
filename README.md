@@ -5,6 +5,21 @@
 
 This plugin is part of the [Aurelia](http://www.aurelia.io/) platform. It is intended to make it simple to make use of the Facebook SDK in your Aurelia app.
 
+## Configuring For Use
+
+Inside of your `main.js`/`main.ts` file simply load the plugin inside of the configure method using `.plugin()`
+
+```
+export function configure(aurelia) {
+    aurelia.use
+        .plugin('aurelia-facebook', config => {
+            config.options({
+                apiAppId: 'myappid'
+            });
+        })
+}
+```
+
 ## Contributions very welcome!!
 
 I need all the help I can get! :wink:

@@ -2,7 +2,10 @@ export class Configure {
 
     constructor() {
         this._config = {
-            apiKey: ''
+            apiAppId: '',
+            apiScript: 'https://connect.facebook.net/en_US/sdk.js',
+            apiXfbml: '1',
+            apiVersion: 'v2.5'
         };
     }
 
