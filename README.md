@@ -17,7 +17,7 @@ I need all the help I can get! :wink:
 
 You can find more documentation in the [doc/](doc/) directory.
 
-* Facebook [LikeButton](/like-button.md)
+* Facebook [LikeButton](/doc/like-button.md)
 
 ## Building The Code
 
