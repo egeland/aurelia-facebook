@@ -1,4 +1,4 @@
-import {configure} from '../../src/index';
+import {configure} from '../../src/aurelia-facebook';
 
 class ConfigStub {
   globalResources(...resources) {
