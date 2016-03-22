@@ -14,7 +14,7 @@ module.exports = function(config) {
     jspm: {
       // Edit this to your needs
       loadFiles: ['test/setup.js', 'test/unit/**/*.js'],
-      serveFiles: ['src/**/*.js'],
+      serveFiles: ['src/**/*.js', 'src/**/*.html', 'test/component-tester.js'],
       paths: {
         '*': '*',
         'github:*': 'jspm_packages/github/*',
