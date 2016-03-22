@@ -18,7 +18,7 @@ Make sure your project uses a `main.js` file to initialize aurelia.
 In your configure function, add the following:
 
 ```js
-  aurelia.use.plugin('doktordirk/aurelia-facebook')
+  aurelia.use.plugin('egeland/aurelia-facebook')
 ```
 
 ### LikeButton
